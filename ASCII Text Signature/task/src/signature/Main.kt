@@ -748,9 +748,9 @@ fun main() {
 
         if ((m % 2 == 0 && n % 2 == 0) || (m % 2 != 0 && n % 2 != 0)) {
 
-            println("88 " + " ".repeat(pStatus) + statusOne + " ".repeat(n - pStatus - m) + "  88")
-            println("88 " + " ".repeat(pStatus) + statusTwo + " ".repeat(n - pStatus - m) + "  88")
-            println("88 " + " ".repeat(pStatus) + statusThree + " ".repeat(n - pStatus - m) + "  88")
+            println("88  " + " ".repeat(pStatus) + statusOne + " ".repeat(n - pStatus - m) + "  88")
+            println("88  " + " ".repeat(pStatus) + statusTwo + " ".repeat(n - pStatus - m) + "  88")
+            println("88  " + " ".repeat(pStatus) + statusThree + " ".repeat(n - pStatus - m) + "  88")
 
         } else {
 
@@ -780,16 +780,16 @@ fun main() {
 
         } else {
 
-            println("88  " + " ".repeat(pStatus + 1) + nameOne + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameTwo + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameThree + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameFour + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameFive + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameSix + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameSeven + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameEight + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameNine + " ".repeat(m - n - pStatus - 1) + "  88")
-            println("88  " + " ".repeat(pStatus + 1) + nameTen + " ".repeat(m - n - pStatus - 1) + "  88")
+            println("88 " + " ".repeat(pStatus + 1) + nameOne + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameTwo + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameThree + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameFour + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameFive + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameSix + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameSeven + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameEight + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameNine + " ".repeat(m - n - pStatus - 1) + "   88")
+            println("88 " + " ".repeat(pStatus + 1) + nameTen + " ".repeat(m - n - pStatus - 1) + "   88")
 
         }
         println("88  " + statusOne + "  88")
